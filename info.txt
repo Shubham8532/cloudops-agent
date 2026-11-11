@@ -1,0 +1,27 @@
+1. AzureCliCredential — login ka jugaad
+Naam ko tod:
+- Azure → Microsoft cloud
+- CLI → Command Line Interface, yaani terminal
+- Credential → Authentication ke liye identity/credentials
+Iska kaam hai tumhari existing Azure CLI login ko Python code mein use karna.
+Tum terminal mein login kar chuke ho
+
+Selected account: Azure for Students
+
+AzureCliCredential
+
+Python ko existing CLI authentication use karne deta hai.
+
+Ye khud login page nahi hai aur na hi Azure resources fetch karta hai. Ye authentication wala part handle karta hai.
+
+
+####################################################
+
+2. ResourceManagementClient — Azure ka resource manager
+Naam ko tod:
+- Resource → VM, storage account, web app jaise cloud resources
+- Management → In resources ko list ya manage karna
+- Client → Python object jiske through Azure service se baat karte hain
+Iska kaam hai Azure Resource Manager API ko call karna.
+
+Example: tum Python se poochte ho, “Meri subscription mein kaunse resources hain?” Toh ye client unhe list karne mein help karta hai.
